@@ -28,15 +28,15 @@ sh start_airflow.sh
 ```
 
 6. Go to [localhost:8080](http://localhost:8080)
-7. Open [./airflow/standalone_admin_password.txt](./airflow/standalone_admin_password.txt) and copy the username and password
-8.  Log in with the provided username and password
+7. Open [./airflow/standalone_admin_password.txt](./airflow/standalone_admin_password.txt) and copy the password
+8.  Log in with the username "admin" and the provided password
 9.  To execute the trending_news_dag, search for it from the home page and select it:  
 ![search](/media/search.png)
-10. Start the DAG by clicking "Trigger DAG" in the top right:  
+1.  Start the DAG by clicking "Trigger DAG" in the top right:  
 ![start](/media/start_dag.png)
-11. You can view the status of your execution on the side panel:  
+1.  You can view the status of your execution on the side panel:  
 ![status](/media/status.png)
-12. Select the status for a specific task by clicking on its square:  
+1.  Select the status for a specific task by clicking on its square:  
 ![status_box](/media/status_box.png)
-13.  Select "Logs" to view execution logs:  
+1.   Select "Logs" to view execution logs:  
 ![logs](/media/logs.png)
