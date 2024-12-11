@@ -3,3 +3,8 @@
 
 # virtual environment
 venv
+
+airflow/logs
+
+**/__pycache__
+**/.DS_Store
