@@ -1,0 +1,50 @@
+[2024-12-10T22:10:49.956-0700] {processor.py:186} INFO - Started process (PID=99259) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:10:49.957-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-10T22:10:49.957-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:49.957-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:10:49.961-0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:10:50.060-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:50.060-0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2024-12-10T22:10:50.064-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:50.064-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2024-12-10T22:10:50.066-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:50.066-0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2024-12-10T22:10:50.069-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:50.069-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2024-12-10T22:10:50.073-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:50.073-0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2024-12-10T22:10:50.075-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:50.075-0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2024-12-10T22:10:50.081-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:50.081-0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2024-12-10T22:10:50.081-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:50.081-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:10:50.088-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:50.088-0700] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown
+[2024-12-10T22:10:50.090-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:50.090-0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-10T22:10:50.112-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.157 seconds
+[2024-12-10T22:12:32.495-0700] {processor.py:186} INFO - Started process (PID=99813) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:12:32.496-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-10T22:12:32.496-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:32.496-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:12:32.501-0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:12:32.571-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:32.571-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:12:32.576-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:32.576-0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-10T22:12:32.583-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.090 seconds
+[2024-12-10T22:14:51.791-0700] {processor.py:186} INFO - Started process (PID=963) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:14:51.792-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-10T22:14:51.793-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:51.792-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:14:51.797-0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:14:51.869-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:51.868-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:14:51.877-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:51.877-0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-10T22:14:51.885-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.095 seconds
+[2024-12-10T22:17:08.456-0700] {processor.py:186} INFO - Started process (PID=2918) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:17:08.457-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-10T22:17:08.458-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:17:08.458-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:17:08.463-0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:17:08.540-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:17:08.540-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:17:08.546-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:17:08.545-0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-10T22:17:08.554-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.100 seconds
+[2024-12-10T22:19:06.086-0700] {processor.py:186} INFO - Started process (PID=4697) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:19:06.087-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-10T22:19:06.088-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:19:06.088-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:19:06.119-0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:19:06.168-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:19:06.168-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:19:06.173-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:19:06.173-0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-10T22:19:06.180-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.096 seconds
+[2024-12-10T22:20:48.111-0700] {processor.py:186} INFO - Started process (PID=5365) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:20:48.112-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-12-10T22:20:48.112-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:48.112-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:20:48.116-0700] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-12-10T22:20:48.191-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:48.191-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:20:48.196-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:48.196-0700] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-12-10T22:20:48.204-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_setup_teardown.py took 0.094 seconds

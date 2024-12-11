@@ -1,0 +1,29 @@
+[2024-12-10T22:11:20.626-0700] {processor.py:186} INFO - Started process (PID=99416) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-12-10T22:11:20.626-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-12-10T22:11:20.627-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.627-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-12-10T22:11:20.670-0700] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-12-10T22:11:20.749-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.748-0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_dynamic_task_mapping
+[2024-12-10T22:11:20.752-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.752-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_dynamic_task_mapping
+[2024-12-10T22:11:20.754-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.754-0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_dynamic_task_mapping
+[2024-12-10T22:11:20.757-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.757-0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_dynamic_task_mapping
+[2024-12-10T22:11:20.759-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.759-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_dynamic_task_mapping
+[2024-12-10T22:11:20.761-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.761-0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_dynamic_task_mapping
+[2024-12-10T22:11:20.763-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.763-0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_dynamic_task_mapping
+[2024-12-10T22:11:20.764-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.764-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:11:20.768-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.768-0700] {dag.py:3262} INFO - Creating ORM DAG for example_dynamic_task_mapping
+[2024-12-10T22:11:20.768-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:11:20.768-0700] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2024-12-10T22:11:20.774-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.150 seconds
+[2024-12-10T22:17:38.192-0700] {processor.py:186} INFO - Started process (PID=3463) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-12-10T22:17:38.193-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-12-10T22:17:38.194-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:17:38.194-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-12-10T22:17:38.232-0700] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-12-10T22:17:38.274-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:17:38.274-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:17:38.278-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:17:38.278-0700] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2024-12-10T22:17:38.285-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.095 seconds
+[2024-12-10T22:19:33.320-0700] {processor.py:186} INFO - Started process (PID=4884) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-12-10T22:19:33.320-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-12-10T22:19:33.321-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:19:33.321-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-12-10T22:19:33.365-0700] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-12-10T22:19:33.411-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:19:33.411-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:19:33.416-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:19:33.416-0700] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2024-12-10T22:19:33.429-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.111 seconds

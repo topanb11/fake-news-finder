@@ -1,0 +1,50 @@
+[2024-12-10T22:10:40.462-0700] {processor.py:186} INFO - Started process (PID=99207) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:10:40.462-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-12-10T22:10:40.463-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.463-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:10:40.510-0700] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:10:40.591-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.591-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2024-12-10T22:10:40.595-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.594-0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2024-12-10T22:10:40.597-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.597-0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2024-12-10T22:10:40.600-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.600-0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sla_dag
+[2024-12-10T22:10:40.602-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.602-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sla_dag
+[2024-12-10T22:10:40.604-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.604-0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sla_dag
+[2024-12-10T22:10:40.606-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.606-0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sla_dag
+[2024-12-10T22:10:40.606-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.606-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:10:40.611-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.611-0700] {dag.py:3262} INFO - Creating ORM DAG for example_sla_dag
+[2024-12-10T22:10:40.615-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:40.615-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2024-12-11 05:08:00+00:00, run_after=2024-12-11 05:10:00+00:00
+[2024-12-10T22:10:40.623-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.164 seconds
+[2024-12-10T22:12:23.429-0700] {processor.py:186} INFO - Started process (PID=99766) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:12:23.430-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-12-10T22:12:23.431-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:23.431-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:12:23.471-0700] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:12:23.511-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:23.511-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:12:23.522-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:23.522-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2024-12-11 05:10:00+00:00, run_after=2024-12-11 05:12:00+00:00
+[2024-12-10T22:12:23.529-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.102 seconds
+[2024-12-10T22:14:42.894-0700] {processor.py:186} INFO - Started process (PID=904) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:14:42.896-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-12-10T22:14:42.896-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:42.896-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:14:42.936-0700] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:14:42.980-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:42.980-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:14:42.990-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:42.990-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2024-12-11 05:12:00+00:00, run_after=2024-12-11 05:14:00+00:00
+[2024-12-10T22:14:42.997-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.104 seconds
+[2024-12-10T22:16:59.016-0700] {processor.py:186} INFO - Started process (PID=2864) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:16:59.016-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-12-10T22:16:59.017-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:59.017-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:16:59.062-0700] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:16:59.106-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:59.106-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:16:59.119-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:59.119-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2024-12-11 05:14:00+00:00, run_after=2024-12-11 05:16:00+00:00
+[2024-12-10T22:16:59.127-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.114 seconds
+[2024-12-10T22:18:57.723-0700] {processor.py:186} INFO - Started process (PID=4650) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:18:57.724-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-12-10T22:18:57.725-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:57.724-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:18:57.772-0700] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:18:57.816-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:57.816-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:18:57.827-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:57.827-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2024-12-11 05:16:00+00:00, run_after=2024-12-11 05:18:00+00:00
+[2024-12-10T22:18:57.835-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.115 seconds
+[2024-12-10T22:20:38.837-0700] {processor.py:186} INFO - Started process (PID=5306) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:20:38.838-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-12-10T22:20:38.838-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:38.838-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:20:38.877-0700] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-10T22:20:38.919-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:38.918-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:20:38.929-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:38.929-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2024-12-11 05:18:00+00:00, run_after=2024-12-11 05:20:00+00:00
+[2024-12-10T22:20:38.936-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.101 seconds

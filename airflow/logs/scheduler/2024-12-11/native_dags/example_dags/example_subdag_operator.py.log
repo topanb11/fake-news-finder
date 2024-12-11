@@ -1,0 +1,88 @@
+[2024-12-10T22:10:38.465-0700] {processor.py:186} INFO - Started process (PID=99183) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:10:38.465-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-10T22:10:38.465-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.465-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:10:38.535-0700] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:10:38.542-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.542-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:10:38.583-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.582-0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2024-12-10T22:10:38.586-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.586-0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2024-12-10T22:10:38.588-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.588-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2024-12-10T22:10:38.591-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.591-0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_subdag_operator
+[2024-12-10T22:10:38.593-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.593-0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_subdag_operator
+[2024-12-10T22:10:38.595-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.595-0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_subdag_operator
+[2024-12-10T22:10:38.597-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.597-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_subdag_operator
+[2024-12-10T22:10:38.598-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.598-0700] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-10T22:10:38.603-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.603-0700] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2024-12-10T22:10:38.603-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.603-0700] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2024-12-10T22:10:38.603-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.603-0700] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator
+[2024-12-10T22:10:38.606-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.606-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-10T22:10:38.606-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.606-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:10:38.606-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.606-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:10:38.610-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.610-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:10:38.613-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.613-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:10:38.613-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:38.613-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:10:38.618-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.156 seconds
+[2024-12-10T22:12:21.793-0700] {processor.py:186} INFO - Started process (PID=99757) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:12:21.794-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-10T22:12:21.795-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:21.795-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:12:21.863-0700] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:12:21.871-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:21.871-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:12:21.878-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:21.878-0700] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-10T22:12:21.886-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:21.886-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-10T22:12:21.887-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:21.887-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:12:21.888-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:21.888-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:12:21.890-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:21.890-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:12:21.892-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:21.892-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:12:21.892-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:21.892-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:12:21.897-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.105 seconds
+[2024-12-10T22:14:41.029-0700] {processor.py:186} INFO - Started process (PID=888) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:14:41.031-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-10T22:14:41.031-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:41.031-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:14:41.099-0700] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:14:41.105-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:41.105-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:14:41.112-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:41.112-0700] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-10T22:14:41.120-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:41.119-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-10T22:14:41.121-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:41.121-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:14:41.121-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:41.121-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:14:41.123-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:41.123-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:14:41.125-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:41.125-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:14:41.125-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:41.125-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:14:41.129-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.102 seconds
+[2024-12-10T22:16:57.140-0700] {processor.py:186} INFO - Started process (PID=2862) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:16:57.141-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-10T22:16:57.142-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:57.142-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:16:57.215-0700] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:16:57.221-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:57.221-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:16:57.230-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:57.230-0700] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-10T22:16:57.238-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:57.238-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-10T22:16:57.239-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:57.239-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:16:57.240-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:57.240-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:16:57.242-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:57.242-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:16:57.244-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:57.243-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:16:57.244-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:57.244-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:16:57.251-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.113 seconds
+[2024-12-10T22:18:55.812-0700] {processor.py:186} INFO - Started process (PID=4636) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:18:55.814-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-10T22:18:55.814-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:55.814-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:18:55.883-0700] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:18:55.888-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:55.888-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:18:55.896-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:55.896-0700] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-10T22:18:55.903-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:55.903-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-10T22:18:55.904-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:55.904-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:18:55.904-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:55.904-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:18:55.907-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:55.907-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:18:55.910-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:55.910-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:18:55.910-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:55.910-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:18:55.916-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.105 seconds
+[2024-12-10T22:20:36.969-0700] {processor.py:186} INFO - Started process (PID=5293) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:20:36.970-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-10T22:20:36.971-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:36.971-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:20:37.039-0700] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-10T22:20:37.046-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:37.046-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:20:37.053-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:37.053-0700] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-10T22:20:37.062-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:37.062-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-10T22:20:37.063-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:37.063-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:20:37.063-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:37.063-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:20:37.065-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:37.065-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:20:37.067-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:37.067-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-10T22:20:37.067-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:37.067-0700] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-10T22:20:37.073-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py took 0.105 seconds

@@ -1,0 +1,72 @@
+[2024-12-10T22:10:24.619-0700] {processor.py:186} INFO - Started process (PID=99109) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:10:24.620-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-10T22:10:24.620-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.620-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:10:24.679-0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:10:24.767-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.767-0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2024-12-10T22:10:24.771-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.771-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2024-12-10T22:10:24.774-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.774-0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2024-12-10T22:10:24.778-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.778-0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_xcom_args
+[2024-12-10T22:10:24.780-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.780-0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_xcom_args
+[2024-12-10T22:10:24.783-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.783-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_xcom_args
+[2024-12-10T22:10:24.786-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.786-0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_xcom_args
+[2024-12-10T22:10:24.793-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.793-0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2024-12-10T22:10:24.796-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.796-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2024-12-10T22:10:24.798-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.798-0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2024-12-10T22:10:24.801-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.801-0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_xcom_args_with_operators
+[2024-12-10T22:10:24.803-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.803-0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_xcom_args_with_operators
+[2024-12-10T22:10:24.805-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.805-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_xcom_args_with_operators
+[2024-12-10T22:10:24.807-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.807-0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_xcom_args_with_operators
+[2024-12-10T22:10:24.808-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.808-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:10:24.812-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.812-0700] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2024-12-10T22:10:24.813-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.813-0700] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args
+[2024-12-10T22:10:24.813-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.813-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-10T22:10:24.813-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:24.813-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-10T22:10:24.820-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.203 seconds
+[2024-12-10T22:12:07.273-0700] {processor.py:186} INFO - Started process (PID=99684) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:12:07.274-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-10T22:12:07.275-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:07.274-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:12:07.314-0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:12:07.357-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:07.357-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:12:07.361-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:07.361-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-10T22:12:07.363-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:07.363-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-10T22:12:07.370-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.098 seconds
+[2024-12-10T22:14:26.492-0700] {processor.py:186} INFO - Started process (PID=804) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:14:26.492-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-10T22:14:26.493-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:26.493-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:14:26.532-0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:14:26.577-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:26.577-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:14:26.582-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:26.582-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-10T22:14:26.583-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:26.583-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-10T22:14:26.591-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.101 seconds
+[2024-12-10T22:16:43.894-0700] {processor.py:186} INFO - Started process (PID=2787) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:16:43.895-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-10T22:16:43.896-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:43.895-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:16:43.935-0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:16:43.978-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:43.978-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:16:43.982-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:43.982-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-10T22:16:43.983-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:43.983-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-10T22:16:43.990-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.097 seconds
+[2024-12-10T22:18:40.847-0700] {processor.py:186} INFO - Started process (PID=4540) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:18:40.849-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-10T22:18:40.849-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:40.849-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:18:40.897-0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:18:40.944-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:40.944-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:18:40.948-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:40.948-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-10T22:18:40.949-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:40.949-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-10T22:18:40.956-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.111 seconds
+[2024-12-10T22:20:23.634-0700] {processor.py:186} INFO - Started process (PID=5216) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:20:23.636-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-10T22:20:23.636-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:23.636-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:20:23.678-0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:20:23.724-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:23.724-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:20:23.728-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:23.728-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-10T22:20:23.730-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:23.730-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-10T22:20:23.737-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.104 seconds
+[2024-12-10T22:21:41.256-0700] {processor.py:186} INFO - Started process (PID=5690) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:21:41.256-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-10T22:21:41.257-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:21:41.257-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:21:41.298-0700] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-10T22:21:41.345-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:21:41.345-0700] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-10T22:21:41.350-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:21:41.350-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-10T22:21:41.351-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:21:41.351-0700] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-10T22:21:41.358-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py took 0.104 seconds

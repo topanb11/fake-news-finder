@@ -1,0 +1,57 @@
+[2024-12-10T22:10:22.683-0700] {processor.py:186} INFO - Started process (PID=99100) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:10:22.683-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-10T22:10:22.684-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.684-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:10:22.688-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:10:22.794-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.794-0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-12-10T22:10:22.800-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.800-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-12-10T22:10:22.804-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.804-0700] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial
+[2024-12-10T22:10:22.807-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.807-0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial
+[2024-12-10T22:10:22.809-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.809-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2024-12-10T22:10:22.811-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.811-0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial
+[2024-12-10T22:10:22.813-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.813-0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2024-12-10T22:10:22.813-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.813-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:10:22.819-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.819-0700] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2024-12-10T22:10:22.822-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:22.822-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-10 00:00:00+00:00, run_after=2024-12-11 00:00:00+00:00
+[2024-12-10T22:10:22.829-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.148 seconds
+[2024-12-10T22:12:05.439-0700] {processor.py:186} INFO - Started process (PID=99673) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:12:05.440-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-10T22:12:05.440-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:05.440-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:12:05.445-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:12:05.516-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:05.516-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:12:05.525-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:05.525-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-10 00:00:00+00:00, run_after=2024-12-11 00:00:00+00:00
+[2024-12-10T22:12:05.532-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.095 seconds
+[2024-12-10T22:14:24.660-0700] {processor.py:186} INFO - Started process (PID=795) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:14:24.661-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-10T22:14:24.661-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:24.661-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:14:24.665-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:14:24.735-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:24.734-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:14:24.745-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:24.745-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-10 00:00:00+00:00, run_after=2024-12-11 00:00:00+00:00
+[2024-12-10T22:14:24.752-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2024-12-10T22:16:42.096-0700] {processor.py:186} INFO - Started process (PID=2778) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:16:42.096-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-10T22:16:42.097-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:42.097-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:16:42.101-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:16:42.166-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:42.166-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:16:42.176-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:16:42.176-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-10 00:00:00+00:00, run_after=2024-12-11 00:00:00+00:00
+[2024-12-10T22:16:42.183-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.089 seconds
+[2024-12-10T22:18:38.939-0700] {processor.py:186} INFO - Started process (PID=4529) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:18:38.940-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-10T22:18:38.941-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:38.941-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:18:38.946-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:18:39.016-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:39.016-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:18:39.026-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:18:39.026-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-10 00:00:00+00:00, run_after=2024-12-11 00:00:00+00:00
+[2024-12-10T22:18:39.034-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.096 seconds
+[2024-12-10T22:20:21.751-0700] {processor.py:186} INFO - Started process (PID=5203) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:20:21.752-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-10T22:20:21.752-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:21.752-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:20:21.756-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:20:21.825-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:21.825-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:20:21.836-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:21.836-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-10 00:00:00+00:00, run_after=2024-12-11 00:00:00+00:00
+[2024-12-10T22:20:21.843-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2024-12-10T22:21:39.999-0700] {processor.py:186} INFO - Started process (PID=5677) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:21:39.999-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-12-10T22:21:40.000-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:21:40.000-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:21:40.004-0700] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2024-12-10T22:21:40.071-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:21:40.070-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:21:40.079-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:21:40.079-0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-12-10 00:00:00+00:00, run_after=2024-12-11 00:00:00+00:00
+[2024-12-10T22:21:40.089-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.092 seconds

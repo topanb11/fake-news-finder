@@ -1,0 +1,56 @@
+[2024-12-10T22:10:53.797-0700] {processor.py:186} INFO - Started process (PID=99274) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:10:53.798-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-10T22:10:53.798-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.798-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:10:53.837-0700] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:10:53.874-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.874-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:10:53.917-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.917-0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sensor_decorator
+[2024-12-10T22:10:53.920-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.920-0700] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sensor_decorator
+[2024-12-10T22:10:53.922-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.922-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sensor_decorator
+[2024-12-10T22:10:53.926-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.925-0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sensor_decorator
+[2024-12-10T22:10:53.928-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.928-0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sensor_decorator
+[2024-12-10T22:10:53.930-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.930-0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sensor_decorator
+[2024-12-10T22:10:53.932-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.932-0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sensor_decorator
+[2024-12-10T22:10:53.933-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.933-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:10:53.937-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.937-0700] {dag.py:3262} INFO - Creating ORM DAG for example_sensor_decorator
+[2024-12-10T22:10:53.937-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:10:53.937-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-10T22:10:53.944-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.149 seconds
+[2024-12-10T22:12:36.232-0700] {processor.py:186} INFO - Started process (PID=99833) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:12:36.233-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-10T22:12:36.233-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:36.233-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:12:36.274-0700] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:12:36.317-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:36.317-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:12:36.325-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:36.325-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:12:36.330-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:12:36.330-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-10T22:12:36.338-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.108 seconds
+[2024-12-10T22:14:55.358-0700] {processor.py:186} INFO - Started process (PID=985) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:14:55.359-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-10T22:14:55.360-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:55.360-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:14:55.403-0700] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:14:55.441-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:55.441-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:14:55.450-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:55.450-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:14:55.455-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:14:55.454-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-10T22:14:55.462-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.105 seconds
+[2024-12-10T22:17:11.941-0700] {processor.py:186} INFO - Started process (PID=2938) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:17:11.942-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-10T22:17:11.943-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:17:11.942-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:17:11.986-0700] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:17:12.030-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:17:12.030-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:17:12.039-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:17:12.039-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:17:12.045-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:17:12.044-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-10T22:17:12.053-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.113 seconds
+[2024-12-10T22:19:08.947-0700] {processor.py:186} INFO - Started process (PID=4727) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:19:08.948-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-10T22:19:08.948-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:19:08.948-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:19:08.997-0700] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:19:09.036-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:19:09.036-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:19:09.044-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:19:09.044-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:19:09.048-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:19:09.048-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-10T22:19:09.056-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.111 seconds
+[2024-12-10T22:20:51.494-0700] {processor.py:186} INFO - Started process (PID=5395) to work on /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:20:51.494-0700] {processor.py:914} INFO - Processing file /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-10T22:20:51.495-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:51.495-0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:20:51.533-0700] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-10T22:20:51.572-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:51.571-0700] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-10T22:20:51.580-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:51.579-0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T22:20:51.584-0700] {logging_mixin.py:190} INFO - [2024-12-10T22:20:51.584-0700] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-10T22:20:51.591-0700] {processor.py:208} INFO - Processing /Users/dimitarjanevski/fake-news-finder/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.099 seconds
