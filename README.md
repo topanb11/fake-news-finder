@@ -1,6 +1,6 @@
-# fake-news-finder
+# trend-finder
 
-A program that detects bias in Canadian and American news articles using Machine Learning
+A program that analyzes trending news articles and identifies which topics are trending
 
 ## Running the application
 
