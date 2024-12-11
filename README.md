@@ -6,7 +6,7 @@ A program that analyzes trending news articles and identifies which topics are t
 
 1. Initialize virtual environment
 ```bash
-python3 -m venv venv
+python3.12 -m venv venv
 source venv/bin/activate
 ```
 
