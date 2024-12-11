@@ -1,6 +1,10 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
+from airflow.providers.http.operators.http import SimpleHttpOperator
+from handlers.extract import fetch_top_headlines
+from handlers.load import load_articles
+from handlers.transform import transform_articles
 
 # Define default arguments
 default_args = {
@@ -22,27 +26,16 @@ dag = DAG(
     catchup=False, # don't backfill data
 )
 
-
-# Define Python functions for tasks
-def fetch_trending_articles():
-    print("Fetching top articles...")
-
-def transform_articles():
-    print("Transforming articles...")
-
-def load_articles():
-    print("Loading articles to DB...")
-
 # Add tasks to the DAG
 extract_task = PythonOperator(
-    task_id="fetch_trending_articles",
-    python_callable=fetch_trending_articles,  # function to execute
+    task_id="fetch_top_headlines",
+    python_callable=fetch_top_headlines,
     dag=dag,
 )
 
 transform_task = PythonOperator(
     task_id="transform_articles",
-    python_callable=transform_articles,  # function to execute
+    python_callable=transform_articles,
     dag=dag,
 )
 
