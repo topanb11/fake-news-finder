@@ -1,6 +1,14 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
+from airflow.providers.http.operators.http import SimpleHttpOperator
+import requests
+import os
+from dotenv import load_dotenv
+import json
+
+load_dotenv()
+API_KEY = os.getenv("NEWS_API_KEY")
 
 # Define default arguments
 default_args = {
@@ -24,11 +32,32 @@ dag = DAG(
 
 
 # Define Python functions for tasks
-def fetch_trending_articles():
+def fetch_trending_articles(**kwargs):
     print("Fetching top articles...")
+    if API_KEY is None:
+        print("[ERROR] API_KEY is not set.")
+        return
 
-def transform_articles():
+    try:
+        response = requests.get(
+            f"https://newsapi.org/v2/top-headlines?country=us&apiKey={API_KEY}"
+        )
+
+        if response.status_code != 200:
+            print(f"[ERROR] error fetching articles: {response.status_code}")
+            return
+
+        data = response.json()
+        kwargs["ti"].xcom_push(key="trending_data", value=data) # push data to xcom for other tasks to access
+    except requests.exceptions.RequestException as e:
+        print("[ERROR] ", e)
+
+def transform_articles(**kwargs):
     print("Transforming articles...")
+    api_data = kwargs["ti"].xcom_pull(
+        task_ids="fetch_trending_articles", key="trending_data"
+    )
+    print(api_data)
 
 def load_articles():
     print("Loading articles to DB...")
