@@ -3,6 +3,7 @@ import utils.topic as topic
 
 
 def convert_to_datetime(iso: str) -> datetime.datetime:
+    iso = iso.replace('Z', '+00:00')
     return datetime.datetime.fromisoformat(iso)
 
 
