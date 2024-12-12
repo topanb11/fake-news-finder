@@ -41,6 +41,6 @@ def transform_articles(**kwargs):
         cleaned_headlines.append(cleaned_article)
     
     kwargs['ti'].xcom_push(
-        key='cleaned_trending_data', value=cleaned_headlines
+        key='cleaned_headlines', value=cleaned_headlines
     )
     print('[LOG] Finished transforming articles')
