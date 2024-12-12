@@ -90,7 +90,8 @@ def fetch_all_records(connection):
 
 
 def load_articles(**kwargs):
-# Step 1: Load database configurations
+    print("Loading articles to DB...")
+    # Step 1: Load database configurations
     db_config = load_db_config()
     if not db_config:
         return
@@ -110,7 +111,6 @@ def load_articles(**kwargs):
 
     # Step 5: Insert data into the database
     insert_data(connection, cleaned_data)
-
 
     # Step 5: Close the connection
     connection.close()
