@@ -1,0 +1,15 @@
+[
+    {
+        id: int, auto-increment
+        topic: str
+title: str
+description: str
+source: { -- separate as another table and have IDs?
+    id: str
+    name: str -- if source is an individual, label as INDIVIDUAL
+        }
+author: str
+published_date: date obj
+content?: str?
+    }
+]
