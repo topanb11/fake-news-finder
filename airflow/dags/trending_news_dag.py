@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.providers.http.operators.http import SimpleHttpOperator
-from handlers.extract import fetch_top_headlines
+from handlers.extract import fetch_top_headlines, fetch_recent_articles
 from handlers.load import load_articles
 from handlers.transform import transform_articles
 
