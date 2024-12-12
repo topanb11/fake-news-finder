@@ -1,6 +1,5 @@
 import json
 import psycopg2
-import pandas as pd
 
 # Function to load database configuration from a JSON file
 def load_db_config(config_file="config.json"):
@@ -26,7 +25,7 @@ def connect_to_db(config):
 def create_table(connection):
     create_table_query = """
     CREATE TABLE IF NOT EXISTS news_article (
-        id SERIAL PRIMARY KEY,
+        article_id SERIAL PRIMARY KEY,
         topic VARCHAR(100),
         title TEXT NOT NULL,
         description TEXT,
@@ -49,15 +48,15 @@ def create_table(connection):
 # Function to insert data into the news_article table
 def insert_data(connection, data):
     insert_query = """
-    INSERT INTO news_article (id, topic, title, description, source_id, source_name, author, published_date, content)
+    INSERT INTO news_article (article_id, topic, title, description, source_id, source_name, author, published_date, content)
     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
-    ON CONFLICT (id) DO NOTHING; -- Handle duplicate primary keys
+    ON CONFLICT (article_id) DO NOTHING; -- Handle duplicate primary keys
     """
     try:
         with connection.cursor() as cursor:
             for record in data:
                 cursor.execute(insert_query, (
-                    record["id"],
+                    record["article_id"],
                     record["topic"],
                     record["title"],
                     record["description"],
@@ -73,16 +72,8 @@ def insert_data(connection, data):
         print(f"Error inserting data: {e}")
 
 
+# helper function to look inside DB
 def fetch_all_records(connection):
-    """
-    Fetch and display all records from the 'users' table.
-
-    Args:
-        connection (psycopg2.extensions.connection): An active PostgreSQL database connection.
-
-    Returns:
-        list: A list of tuples containing all records from the 'users' table.
-    """
     query = "SELECT * FROM news_article;"
     try:
         with connection.cursor() as cursor:
@@ -95,10 +86,11 @@ def fetch_all_records(connection):
     except Exception as e:
         print(f"Error fetching records: {e}")
         return []
+    
 
 
-def main():
-    # Step 1: Load database configurations
+def load_articles(**kwargs):
+# Step 1: Load database configurations
     db_config = load_db_config()
     if not db_config:
         return
@@ -111,51 +103,15 @@ def main():
     # Step 3: Create the table (if necessary)
     create_table(connection)
 
-    # Step 4: Read JSON file
-    with open("data.json", "r") as json_file:
-        data = json.load(json_file)
-
-    # Optional: Load data into a DataFrame (if needed for preprocessing)
-    # df = pd.DataFrame(data)
-    # print("Data Preview:\n", df)
+    # Step 4: Read data from transform function
+    cleaned_data = kwargs["ti"].xcom_pull(
+        task_ids="fetch_cleaned_headlines", key="cleaned_headlines"
+    )
 
     # Step 5: Insert data into the database
-    insert_data(connection, data)
+    insert_data(connection, cleaned_data)
 
-    # checking to see if records updated in database
-    # fetch_all_records(connection)
 
     # Step 5: Close the connection
     connection.close()
     print("Pipeline completed successfully.")
-
-if __name__ == "__main__":
-    main()
-
-
-
-# def load_articles():
-#     print("Loading articles to DB...")
-#         # Step 1: Connect to the database
-#     connection = connect_to_db(DB_CONFIG)
-#     if not connection:
-#         return
-
-#     # Step 2: Create the table (if necessary)
-#     create_table(connection)
-
-#     # Step 3: Read JSON file
-#     with open("data.json", "r") as json_file:
-#         data = json.load(json_file)
-
-#     # Optional: Load data into a DataFrame (if needed for preprocessing)
-#     df = pd.DataFrame(data)
-#     print("Data Preview:\n", df)
-
-#     # Step 4: Insert data into the database
-#     insert_data(connection, data)
-#     fetch_all_records(connection)
-
-#     # Step 5: Close the connection
-#     connection.close()
-#     print("Pipeline completed successfully.")
