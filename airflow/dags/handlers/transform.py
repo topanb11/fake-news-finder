@@ -1,5 +1,12 @@
 import datetime
+import hashlib
 import utils.topic as topic
+
+
+def hash_article_id(title: str) -> str:
+    hash_obj = hashlib.sha256()
+    hash_obj.update(title.encode('utf-8'))
+    return hash_obj.hexdigest()
 
 
 def convert_to_datetime(iso: str) -> datetime.datetime:
@@ -27,6 +34,7 @@ def transform_articles(**kwargs):
         cleaned_source = clean_article_source(article['source'])
         cleaned_article = {
             # TODO: Replace with actual algorithm to determine topic later
+            'article_id': hash_article_id(article['title']),
             'topic': topic.determine_article_topic(
                 title=article['title'],
                 description=article['description'],
