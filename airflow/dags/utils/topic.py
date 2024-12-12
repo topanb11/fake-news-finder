@@ -21,7 +21,7 @@ topics = [
   'mlb',
   'nfl',
   'nba',
-  'sports'
+  'sports',
   'diddy'
 ]
 
@@ -30,11 +30,8 @@ def determine_article_topic(title: str = '', description: str = '') -> str:
   description_lower = ''
   
   # in some cases, title or description can be null
-  if title:
-    title_lower = title.lower()
-    
-  if description:
-    description_lower = description.lower()
+  title_lower = title.lower() if title else ''
+  description_lower = description.lower() if description else ''
   
   for topic in topics:
     if topic in title_lower or topic in description_lower:

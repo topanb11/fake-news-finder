@@ -1,6 +1,6 @@
 import datetime
 import utils.topic as topic
-from pprint import pprint
+
 
 def convert_to_datetime(iso: str) -> datetime.datetime:
     return datetime.datetime.fromisoformat(iso)
@@ -18,10 +18,10 @@ def transform_articles(**kwargs):
         task_ids="fetch_top_headlines", key="top_headlines"
     )
     
-    all_articles = api_data['articles']
+    all_headlines = api_data['articles']
     
-    cleaned_articles = []
-    for article in all_articles:
+    cleaned_headlines = []
+    for article in all_headlines:
         # skip over removed articles
         if article['title'] == '[Removed]':
             continue
@@ -38,9 +38,9 @@ def transform_articles(**kwargs):
             'author': article['author'],
             'published_date': convert_to_datetime(article['publishedAt']),
         }
-        cleaned_articles.append(cleaned_article)
+        cleaned_headlines.append(cleaned_article)
     
     kwargs['ti'].xcom_push(
-        key='cleaned_trending_data', value=cleaned_articles
+        key='cleaned_trending_data', value=cleaned_headlines
     )
     print('[LOG] Finished transforming articles')
