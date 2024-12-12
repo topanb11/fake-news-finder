@@ -3,6 +3,15 @@ import requests
 from newsapi import NewsApiClient
 from datetime import datetime, timedelta
 
+SOURCES = [
+    "google-news",
+    "cnn",
+    "al-jazeera-english",
+    "abc-news",
+    "bbc-news",
+    "bloomberg",
+]
+
 def formatDateString(date: datetime):
     return date.strftime("%Y-%m-%d")
 
@@ -29,7 +38,7 @@ def fetch_top_headlines(**kwargs):
             return
 
         kwargs["ti"].xcom_push(
-            key="top_headlines", value=top_headlines
+            key="news_data", value=top_headlines
         )  # push data to xcom for other tasks to access
     except requests.exceptions.RequestException as e:
         print("[ERROR] ", e)
@@ -49,13 +58,14 @@ def fetch_recent_articles(**kwargs):
             to=getYesterdayString(),
             language="en",
             sort_by="popularity",
+            sources=",".join(SOURCES)
         )
         if recent_articles["status"] != "ok":
             print(f"[ERROR] error fetching articles: {recent_articles.status}")
             return
 
         kwargs["ti"].xcom_push(
-            key="recent_articles", value=recent_articles
+            key="news_data", value=recent_articles
         )  # push data to xcom for other tasks to access
     except requests.exceptions.RequestException as e:
         print("[ERROR] ", e)

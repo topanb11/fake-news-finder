@@ -28,8 +28,8 @@ dag = DAG(
 
 # Add tasks to the DAG
 extract_task = PythonOperator(
-    task_id="fetch_top_headlines",
-    python_callable=fetch_top_headlines,
+    task_id="fetch_articles",
+    python_callable=fetch_recent_articles,
     dag=dag,
 )
 
