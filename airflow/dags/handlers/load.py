@@ -33,7 +33,6 @@ def create_table(connection):
         source_name VARCHAR(100),
         author VARCHAR(100),
         published_date DATE,
-        content TEXT
     );
     """
     try:
@@ -48,8 +47,8 @@ def create_table(connection):
 # Function to insert data into the news_article table
 def insert_data(connection, data):
     insert_query = """
-    INSERT INTO news_article (article_id, topic, title, description, source_id, source_name, author, published_date, content)
-    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+    INSERT INTO news_article (article_id, topic, title, description, source_id, source_name, author, published_date)
+    VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
     ON CONFLICT (article_id) DO NOTHING; -- Handle duplicate primary keys
     """
     try:
@@ -64,30 +63,11 @@ def insert_data(connection, data):
                     record["source_name"],
                     record["author"],
                     record["published_date"],
-                    record["content"]
                 ))
             connection.commit()
             print("Data inserted successfully.")
     except Exception as e:
         print(f"Error inserting data: {e}")
-
-
-# helper function to look inside DB
-def fetch_all_records(connection):
-    query = "SELECT * FROM news_article;"
-    try:
-        with connection.cursor() as cursor:
-            cursor.execute(query)
-            records = cursor.fetchall()  # Fetch all rows
-            print("All Records:")
-            for record in records:
-                print(record)
-            return records
-    except Exception as e:
-        print(f"Error fetching records: {e}")
-        return []
-    
-
 
 def load_articles(**kwargs):
     print("Loading articles to DB...")
