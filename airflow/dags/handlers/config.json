@@ -1,4 +1,3 @@
-// user to define database variables
 {
     "dbname": "test",
     "user": "postgres",
