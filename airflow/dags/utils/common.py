@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
 
-def get_news_api_key():
+def get_env_variable(key: str):
     load_dotenv()
-    return os.environ.get("NEWS_API_KEY")
+    return os.environ.get(key)

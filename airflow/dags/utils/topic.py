@@ -37,4 +37,4 @@ def determine_article_topic(title: str = '', description: str = '') -> str:
     if topic in title_lower or topic in description_lower:
       return topic
 
-  return 'general'
+  return 'other'

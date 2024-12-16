@@ -1,4 +1,4 @@
-from utils.common import get_news_api_key
+from utils.common import get_env_variable
 import requests
 from newsapi import NewsApiClient
 from datetime import datetime, timedelta
@@ -25,7 +25,7 @@ def getYesterdayString():
 
 def fetch_top_headlines(**kwargs):
     print("Fetching top articles...")
-    API_KEY = get_news_api_key()
+    API_KEY = get_env_variable("NEWS_API_KEY")
     if API_KEY is None:
         print("[ERROR] API_KEY is not set.")
         return
@@ -46,7 +46,7 @@ def fetch_top_headlines(**kwargs):
 
 def fetch_recent_articles(**kwargs):
     print("Fetching recent articles...")
-    API_KEY = get_news_api_key()
+    API_KEY = get_env_variable("NEWS_API_KEY")
     if API_KEY is None:
         print("[ERROR] API_KEY is not set.")
         return
