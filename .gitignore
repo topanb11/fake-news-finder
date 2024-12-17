@@ -1,5 +1,6 @@
-# .env
+# config
 .env
+**/config.json
 
 # virtual environment
 venv

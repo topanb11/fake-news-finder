@@ -1,4 +1,3 @@
-# TODO: Replace with a proper algorithm to figure out the topic later
 topics = [
   'trump',
   'canada',
