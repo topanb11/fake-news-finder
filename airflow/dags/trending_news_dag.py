@@ -3,6 +3,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.providers.http.operators.http import SimpleHttpOperator
 from handlers.extract import fetch_top_headlines, fetch_recent_articles
+from handlers.load_s3 import load_s3_with_raw_articles
 from handlers.load import load_articles
 from handlers.transform import transform_articles
 
@@ -33,6 +34,12 @@ extract_task = PythonOperator(
     dag=dag,
 )
 
+load_s3_task = PythonOperator(
+    task_id="load_s3_with_raw_articles",
+    python_callable=load_s3_with_raw_articles,
+    dag=dag,
+)
+
 transform_task = PythonOperator(
     task_id="transform_articles",
     python_callable=transform_articles,
@@ -46,4 +53,4 @@ load_task = PythonOperator(
 )
 
 # Define task dependencies
-extract_task >> transform_task >> load_task  # fetch articles before transforming
+extract_task >> load_s3_task >> transform_task >> load_task  # fetch articles before transforming

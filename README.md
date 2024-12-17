@@ -15,7 +15,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Initialize API key by creating a `.env`. For more details, see `.env.example`
+3. Initialize API keys by creating a `.env`. For more details, see `.env.example`
+```
+NEWS_API_KEY=yourapikey
+AWS_ACCESS_KEY_ID=youraccesskeyid
+AWS_SECRET_ACCESS_KEY=yoursecretaccesskey
+```
 
 4. Install airflow
 ```bash
