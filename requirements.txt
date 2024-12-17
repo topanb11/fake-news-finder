@@ -135,7 +135,7 @@ typing_extensions==4.12.2
 tzdata==2024.2
 uc-micro-py==1.0.3
 universal_pathlib==0.2.5
-urllib3==2.2.3
+urllib3==1.25.4
 Werkzeug==2.2.3
 wirerope==0.4.7
 wrapt==1.16.0
