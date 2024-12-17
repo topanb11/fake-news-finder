@@ -35,7 +35,9 @@ def create_table(connection):
         source_id VARCHAR(50),
         source_name VARCHAR(100),
         author VARCHAR(100),
-        published_date DATE
+        published_date DATE,
+        polarity NUMERIC(3,2),
+        subjectivity NUMERIC(3,2)
     );
     """
     try:
@@ -50,8 +52,8 @@ def create_table(connection):
 # Function to insert data into the news_article table
 def insert_data(connection, data):
     insert_query = """
-    INSERT INTO news_article (article_id, topic, title, description, source_id, source_name, author, published_date)
-    VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+    INSERT INTO news_article (article_id, topic, title, description, source_id, source_name, author, published_date, polarity, subjectivity)
+    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     ON CONFLICT (article_id) DO NOTHING; -- Handle duplicate primary keys
     """
     try:
@@ -66,6 +68,8 @@ def insert_data(connection, data):
                     record["source_name"],
                     record["author"],
                     record["published_date"],
+                    record["polarity"],
+                    record["subjectivity"]
                 ))
             connection.commit()
             print("Data inserted successfully.")

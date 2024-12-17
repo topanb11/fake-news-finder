@@ -1,6 +1,7 @@
 import datetime
 import hashlib
 import utils.topic as topic
+from textblob import TextBlob
 
 
 def hash_article_id(title: str) -> str:
@@ -18,6 +19,17 @@ def clean_article_source(source: dict) -> str:
     cleaned_source = source['name']
     return cleaned_source if cleaned_source != '[Removed]' else 'INDIVIDUAL'
 
+def get_article_sentiment_analysis(title: str, description: str):
+    # Polarity [-1.0 - 1.0]:
+    #   -1 = negative
+    #    0 = neutral
+    #    1 = positive
+    # Subjectivity [0.0 - 1.0]:
+    #    0 = objective
+    #    1 = subjective
+    blob = TextBlob(title)
+    polarity, subjectivity = blob.sentiment  # Returns a tuple (polarity, subjectivity)
+    return polarity, subjectivity
 
 def transform_articles(**kwargs):
     print("[LOG] Transforming articles...")
@@ -32,19 +44,21 @@ def transform_articles(**kwargs):
             continue
 
         cleaned_source = clean_article_source(article['source'])
+        polarity, subjectivity = get_article_sentiment_analysis(article['title'], article['description'])
         cleaned_article = {
-            # TODO: Replace with actual algorithm to determine topic later
-            'article_id': hash_article_id(article['title']),
-            'topic': topic.determine_article_topic(
-                title=article['title'],
-                description=article['description'],
+            "article_id": hash_article_id(article["title"]),
+            "topic": topic.determine_article_topic(
+                title=article["title"],
+                description=article["description"],
             ),
-            'title': article['title'],
-            'description': article['description'],
-            'source_id': cleaned_source.lower(),
-            'source_name': cleaned_source,
-            'author': article['author'],
-            'published_date': convert_to_datetime(article['publishedAt']),
+            "title": article["title"],
+            "description": article["description"],
+            "source_id": cleaned_source.lower(),
+            "source_name": cleaned_source,
+            "author": article["author"],
+            "published_date": convert_to_datetime(article["publishedAt"]),
+            "polarity": polarity,
+            "subjectivity": subjectivity
         }
         cleaned_articles.append(cleaned_article)
 
